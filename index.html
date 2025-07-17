@@ -3,149 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Get more plumbing leads with expert Google Ads setup. Partner with a top-rated freelancer from Fiverr to grow your plumbing business today." />
-  <meta name="keywords" content="plumbing business, Google Ads, local plumber leads, Fiverr, plumber marketing" />
-  <title>Boost Your Plumbing Business with Google Ads</title>
+  <title>Promote Your Business with Fiverr Experts</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f0f4f8;
-      color: #222;
-      line-height: 1.6;
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      min-height: 100vh;
-      padding: 20px;
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
     }
-    .container {
-      max-width: 720px;
-      background: #ffffff;
-      padding: 40px 50px;
-      border-radius: 14px;
-      box-shadow: 0 12px 28px rgba(0,0,0,0.08);
-      animation: fadeInUp 0.7s ease forwards;
-    }
-    h1 {
-      color: #1dbf73;
-      margin-bottom: 15px;
-      font-weight: 700;
-      font-size: 2.3rem;
-    }
-    p.intro {
-      font-size: 1.1rem;
-      margin-bottom: 20px;
-      color: #444;
-    }
-    ul, ol {
-      margin-left: 25px;
-      margin-bottom: 25px;
-    }
-    li {
-      margin-bottom: 12px;
-      font-size: 1rem;
-    }
-    a.button {
-      display: inline-block;
-      background: #1dbf73;
-      color: white;
-      text-decoration: none;
-      padding: 16px 30px;
-      border-radius: 6px;
-      font-weight: 600;
-      font-size: 1.15rem;
-      box-shadow: 0 6px 12px rgba(29, 191, 115, 0.35);
-      transition: all 0.3s ease;
-      user-select: none;
-      cursor: pointer;
-    }
-    a.button:hover {
-      background: #179b5e;
-      transform: translateY(-2px);
-    }
-    .cta {
-      font-weight: 600;
-      font-size: 1.2rem;
-      margin-bottom: 15px;
-      color: #1a7f4a;
-    }
-    .testimonial {
-      background: #eafbe7;
-      border-left: 5px solid #1dbf73;
-      padding: 15px 20px;
-      margin-top: 30px;
-      font-style: italic;
-      color: #2d4f36;
-      border-radius: 6px;
-    }
-    footer {
-      font-size: 0.85rem;
-      color: #666;
-      margin-top: 40px;
+
+    header {
       text-align: center;
-      font-style: italic;
+      padding: 3rem 1rem 2rem;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
     }
-    @media (max-width: 768px) {
-      .container {
-        padding: 30px 25px;
-      }
-      h1 {
-        font-size: 1.8rem;
-      }
-      a.button {
-        width: 100%;
-        text-align: center;
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #d0d0d0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 16px;
+      padding: 1.5rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.7);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #00b894;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #019875;
+    }
+
+    /* Special style for the Google Ads block */
+    .card.google-ads {
+      grid-column: span 2;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      border: 2px solid #00b4d8;
+      box-shadow: 0 0 20px #00b4d8;
+      transform: scale(1.02);
+    }
+
+    .card.google-ads a {
+      background-color: #ffffff;
+      color: #0072ff;
+    }
+
+    .card.google-ads a:hover {
+      background-color: #d4eaff;
+    }
+
+    @media (max-width: 700px) {
+      .card.google-ads {
+        grid-column: span 1;
       }
     }
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(15px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 2rem 1rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <div class="container" role="main" aria-label="Fiverr Plumbing Ads Landing Page">
-    <h1>Get More Plumbing Clients with Google Ads</h1>
-    <p class="intro">
-      Hi there! If you're running a plumbing business and want more local customers calling, Google Ads is one of the fastest ways to make it happen.
-    </p>
-    <p>
-      But setting it up the right way takes experience — that’s why I recommend this **top-rated Google Ads expert on Fiverr** who specializes in helping plumbers get more leads and phone calls.
-    </p>
-    <ul>
-      <li>Target customers in your exact service area</li>
-      <li>Get more website visits, calls, and booked jobs</li>
-      <li>Save money by only showing ads to the right people</li>
-      <li>Track results and see real ROI on your ad spend</li>
-    </ul>
-    <h2>How It Works:</h2>
-    <ol>
-      <li>Click the button below to visit the Fiverr gig</li>
-      <li>Place your order or message the freelancer</li>
-      <li>They’ll handle the entire setup and management for you</li>
-    </ol>
+  <header>
+    <h1>Promote Your Business with Fiverr Pro Experts</h1>
+    <p>Get expert help with Google Ads, SEO, Landing Page Design & Copywriting — all done for you.</p>
+  </header>
 
-    <p class="cta">Start getting more local plumbing clients today with professional Google Ads management!</p>
-    <a href="https://go.fiverr.com/visit/?bta=1130192&brand=fp&landingPage=https%253A%252F%252Fwww.fiverr.com%252Fdigital_bee1%252Fsetup-and-manage-google-ads-adwords-ppc-campaigns-search-ads-for-faster-result%253Fcontext_referrer%253Dtailored_homepage_perseus%2526source%253Drecently_viewed_gigs%2526ref_ctx_id%253D81e8a87bf7d549cc95fe8e1b25b65422%2526context%253Drecommendation%2526pckg_id%253D1%2526pos%253D1%2526context_alg%253Drecently_viewed%2526seller_online%253Dtrue%2526imp_id%253Deac2bea8-e895-4c76-944f-1d7c153045ec" target="_blank" rel="noopener noreferrer nofollow sponsored" class="button">View Google Ads Gig on Fiverr</a>
-
-    <div class="testimonial" aria-label="Customer Testimonial">
-      “I got over 40 new leads in just one month after switching to Google Ads with help from Fiverr — worth every penny!” – Mike T., Local Plumber
+  <section class="container">
+    <!-- Google Ads (main focus) -->
+    <div class="card google-ads">
+      <h3>🚀 Boost Your Business with Google Ads</h3>
+      <p>Target your local customers fast with expert Google Ads management tailored for small businesses like yours.</p>
+      <a href="https://go.fiverr.com/visit/?bta=1130192&brand=fp&landingPage=https%253A%252F%252Fwww.fiverr.com%252Falanletsgo%252Fsubmit-your-website-to-3000-backlinks-to-improve-your-ranking-and-traffic%253Fcontext_referrer%253Dsearch_gigs_with_modalities%2526source%253Dtop-bar%2526ref_ctx_id%253D5f4f3648504742589a4c0af3dd746382%2526pckg_id%253D1%2526pos%253D16%2526context_type%253Dauto%2526funnel%253D5f4f3648504742589a4c0af3dd746382%2526seller_online%253Dtrue%2526imp_id%253D234d0c0b-8a0c-471b-a6df-618638351416" target="_blank">Get Started with Google Ads</a>
     </div>
 
-    <footer>
-      <p>
-        This page contains affiliate links. I may earn a commission if you purchase through my link — at no extra cost to you. Thank you!
-      </p>
-    </footer>
-  </div>
+    <!-- SEO -->
+    <div class="card">
+      <h3>📈 On-Page SEO Optimization</h3>
+      <p>Improve your search rankings and website traffic with expert-level on-page SEO services.</p>
+      <a href="https://go.fiverr.com/visit/?bta=1130192&brand=fp&landingPage=https%253A%252F%252Fwww.fiverr.com%252Falanletsgo%252Fpromote-and-deliver-around-10000-unique-views-to-your-youtube-channel%253Fcontext_referrer%253Dseller_page%2526ref_ctx_id%253D99cb75696c944a04bc3a9b433dd97bda%2526pckg_id%253D1%2526pos%253D1%2526imp_id%253D293be000-94d6-45a4-b8e6-177c976df8ca" target="_blank">Improve SEO</a>
+    </div>
+
+    <!-- Landing Page Design -->
+    <div class="card">
+      <h3>🎨 Landing Page Design</h3>
+      <p>Get a high-converting landing page designed to turn visitors into customers — professionally and fast.</p>
+      <a href="https://go.fiverr.com/visit/?bta=1130192&brand=fp&landingPage=https%253A%252F%252Fwww.fiverr.com%252Fthemasterpeice%252Fbuild-high-converting-landing-page%253Fcontext_referrer%253Dtailored_homepage_perseus%2526source%253Drecently_viewed_gigs%2526ref_ctx_id%253D1897c122bde44c00b3710308b7c84f04%2526context%253Drecommendation%2526pckg_id%253D1%2526pos%253D1%2526context_alg%253Drecently_viewed%2526imp_id%253Df6d7a855-7f56-42e4-96bd-870d25253ed2" target="_blank">Get Landing Page</a>
+    </div>
+
+    <!-- Copywriting -->
+    <div class="card">
+      <h3>✍️ Landing Page Copywriting</h3>
+      <p>Get compelling, high-converting copy written by a Fiverr Pro to help you turn traffic into paying customers.</p>
+      <a href="https://go.fiverr.com/visit/?bta=1130192&brand=fp&landingPage=https%253A%252F%252Fwww.fiverr.com%252Fyvettej%252Fwrite-compelling-landing-page-copy%253Fcontext_referrer%253Dtailored_homepage_perseus%2526source%253Drecently_viewed_gigs%2526ref_ctx_id%253D96dbdc49685040b9925cec0651042e1b%2526context%253Drecommendation%2526pckg_id%253D1%2526pos%253D1%2526context_alg%253Drecently_viewed%2526imp_id%253Db2fc8bf3-7709-4a93-b989-29a7c6a1abd1" target="_blank">Hire Copywriter</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 PromoteWithFiverr. All rights reserved.
+  </footer>
 </body>
 </html>
